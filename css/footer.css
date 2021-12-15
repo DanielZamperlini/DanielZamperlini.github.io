@@ -9,12 +9,13 @@
   gap: 100px;
   padding: 120px 20px 60px 20px;
   margin: 0 auto;
+  justify-items: flex-start;
   align-items: center;
 
 }
 
 .footer-texto {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.33;
   color: #eeeeee;
 }
@@ -24,7 +25,7 @@
   font-size: 2rem;
   line-height: 1.2;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   display: grid;
   gap: 20px;
   position: relative;
@@ -39,6 +40,7 @@
   height: 30px;
   position: absolute;
   left: -50px;
+  top: 134px;
 }
 .linkedin  a::before {
   background: url("/icons/linkedin-g.svg");
@@ -50,7 +52,7 @@
   height: 60px;
   position: absolute;
   left: -70px;
-  top: 50px;
+  top: 58px;
 }
 .phone  h3::before {
   background: url("/icons/icons8-whatsapp.svg");
@@ -68,16 +70,21 @@
   height: 30px;
   position: absolute;
   left: -50px;
+  top: 8px;
 }
 .email  h3::before {
   background: url("/icons/contato-g.svg");
 }
-
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .footer-container {
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: 120px;
   }
+  
+}
+
+@media (max-width: 800px) {
   .footer-contato li {
     font-size: 1.5rem;
   }
@@ -93,13 +100,21 @@
     position: initial;
     margin-bottom: 10px;
   }
+  .footer-container {
+    margin-left: 80px;
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .footer-contato li {
     font-size: 1rem;
   }
   .footer-texto {
     font-size: 1rem;
     line-height: 1.1;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 40px;
   }
 }
