@@ -32,21 +32,34 @@
   content: "";
   display: block;
   width: 4px;
-  height: 20px;
+  height: 30px;
   background: linear-gradient(#cc6df8, #800add);
   position: absolute;
   top: 20px;
   left: -4px;
   gap: 10px 20px;
 }
+.empresa:hover::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 30px;
+  background: linear-gradient(#cc6df8, #800add);
+  position: absolute;
+  top: 20px;
+  left: -60px;
+  transition: 0.5s;
+  border-radius: 4px 4px 4px 4px;
+}
 .empresa-ano {
   position: absolute;
-  top: 22px;
-  left: -103px;
+  top: 25px;
+  left: -70px;
   text-align: center;
   width: 80px;
-  color: #525252;
-  font-size: 0.875rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .empresa-titulo {
   font-size: 1.125rem;

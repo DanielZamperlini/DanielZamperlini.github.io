@@ -34,6 +34,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin-bottom: 60px;
+  position: relative;
 }
 
 .faculdade {
@@ -51,7 +52,6 @@
   color: #a3a3a3;
   margin-bottom: 30px;
   position: relative;
-
 }
 
 .faculdade-curso {
@@ -71,6 +71,59 @@
   position: absolute;
   left: -24px;
 }
+
+.faculdade-tipo::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#cc6df8, #800add);
+  position: absolute;
+  left: -24px;
+ 
+}
+@media (min-width: 1200px) {
+  .etq-1:hover::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 20px;
+    background: linear-gradient(#cc6df8, #800add);
+    position: absolute;
+    left: -10px;
+  }
+  .etq-2:hover::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 20px;
+    background: linear-gradient(#cc6df8, #800add);
+    position: absolute;
+    left: 350px;
+
+  }
+  .etq-3:hover::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 20px;
+    background: linear-gradient(#cc6df8, #800add);
+    position: absolute;
+    left: -10px;
+
+  }
+  .etq-4:hover::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 20px;
+    background: linear-gradient(#cc6df8, #800add);
+    position: absolute;
+    left: 350px;
+
+  }
+}
+
 .faculdade-instituicao {
   font-size: 1.125rem;
   color: #a3a3a3;
@@ -94,7 +147,7 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
-} 
+}
 @media (max-width: 500px) {
   .faculdade-lista {
     grid-template-columns: 1fr;
