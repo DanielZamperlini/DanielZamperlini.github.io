@@ -1,6 +1,6 @@
 .footer {
-  background: #000000;
-  color: #efefef;
+  background: var(--bg-3);
+  color: var(--text-5);
 }
 .footer-container {
   max-width: 1200px;
@@ -17,21 +17,21 @@
 .footer-texto {
   font-size: 2rem;
   line-height: 1.33;
-  color: #eeeeee;
+  color: var(--text-6);
 }
 
 .footer-contato {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
-  color: #ffffff;
+  color: var(--text-4);
   margin-bottom: 32px;
   display: grid;
   gap: 20px;
   position: relative;
 }
 .footer-contato li a {
-  color: #ffffff;
+  color: var(--text-4);
 }
 .linkedin a::before {
   display: block;
@@ -60,7 +60,7 @@
 .footer-copy {
   grid-column: 1/-1;
   font-size: 1.125rem;
-  color: #8f8f8f;
+  color: var(--text-7);
 }
 
 .email h3::before {

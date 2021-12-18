@@ -6,8 +6,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 50px;
-  border-bottom: 1px solid #eee;
-  background: #00000003;
+  border-bottom: 1px solid var(--text-6);
   font-size: 1.3rem;
 }
 
@@ -20,7 +19,7 @@
   margin-left: 30px;
 }
 .exp:hover {
-  border-bottom: 3px solid #800add;
+  border-bottom: 3px solid var(--border-1);
   border-radius: 3px;
   transition: 0.1s;
 }
@@ -35,13 +34,13 @@
 }
 
 .form:hover {
-  border-bottom: 3px solid #800add;
+  border-bottom: 3px solid var(--border-1);
   border-radius: 3px;
   transition: 0.1s;
 }
 
 .ctt:hover {
-  border-bottom: 3px solid #800add;
+  border-bottom: 3px solid var(--border-1);
   border-radius: 3px;
   transition: 0.1s;
 }
@@ -67,7 +66,7 @@
   .bar {
     width: 100%;
     height: 7px;
-    background-color: #800add;
+    background-color: var(--border-1);
     border-radius: 5px;
     transition: opacity 0.1s, transform 0.3s;
   }
@@ -76,7 +75,7 @@
     left: 0;
     top: 0;
     width: 85%;
-    background-color: #050107ee;
+    background-color: var(--bg-5);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -103,7 +102,7 @@
   .exp a,
   .form a,
   .ctt a {
-    color: #ffffff;
+    color: var(--text-4);
     font-size: 1.3rem;
   }
   @keyframes animate-link {
