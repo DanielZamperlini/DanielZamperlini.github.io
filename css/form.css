@@ -68,8 +68,7 @@
   position: absolute;
   left: -24px;
 }
-<<<<<<< HEAD
-=======
+
 
 .faculdade-tipo::before {
   content: "";
@@ -81,7 +80,6 @@
   left: -24px;
  
 }
->>>>>>> a28cf8f999ec4a438397a9a1ae96ae7ac546bc36
 @media (min-width: 1200px) {
   .etq-1:hover::before {
     content: "";
@@ -89,42 +87,9 @@
     height: 20px;
     background: var(--bg-grad-1);
     position: absolute;
-<<<<<<< HEAD
-    left: -20px;
-=======
-    left: -10px;
+    left: -23px;
   }
-  .etq-2:hover::before {
-    content: "";
-    display: block;
-    width: 12px;
-    height: 20px;
-    background: var(--bg-grad-1);
-    position: absolute;
-    left: 350px;
-
-  }
-  .etq-3:hover::before {
-    content: "";
-    display: block;
-    width: 12px;
-    height: 20px;
-    background: var(--bg-grad-1);
-    position: absolute;
-    left: -10px;
-
-  }
-  .etq-4:hover::before {
-    content: "";
-    display: block;
-    width: 12px;
-    height: 20px;
-    background: var(--bg-grad-1);
-    position: absolute;
-    left: 350px;
-
->>>>>>> a28cf8f999ec4a438397a9a1ae96ae7ac546bc36
-  }
+  
 }
 
 .faculdade-instituicao {
