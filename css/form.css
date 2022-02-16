@@ -1,6 +1,6 @@
 .formacao {
-  background: #222222;
-  color: #a3a3a3;
+  background: var(--bg-4);
+  color: var(--text-8);
 }
 
 .formacao-container {
@@ -13,7 +13,7 @@
 }
 
 .formacao .subtitulo {
-  color: #2e2e2e;
+  color: var(--text-9);
   max-width: 4ch;
 }
 
@@ -22,11 +22,11 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color: var(--text-8);
 }
 
 .formacao-texto strong {
-  color: #ffffff;
+  color: var(--text-4);
 }
 
 .faculdade-lista {
@@ -39,7 +39,7 @@
 
 .faculdade {
   flex: 1;
-  background: #000000;
+  background: var(--bg-3);
   padding: 20px;
   border-radius: 4px;
   display: flex;
@@ -49,7 +49,7 @@
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: var(--text-8);
   margin-bottom: 30px;
   position: relative;
 }
@@ -64,24 +64,72 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#cc6df8, #800add);
+  background: var(--bg-grad-1);
   position: absolute;
   left: -24px;
 }
+<<<<<<< HEAD
+=======
+
+.faculdade-tipo::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: var(--bg-grad-1);
+  position: absolute;
+  left: -24px;
+ 
+}
+>>>>>>> a28cf8f999ec4a438397a9a1ae96ae7ac546bc36
 @media (min-width: 1200px) {
   .etq-1:hover::before {
     content: "";
     width: 25px;
     height: 20px;
-    background: linear-gradient(#cc6df8, #800add);
+    background: var(--bg-grad-1);
     position: absolute;
+<<<<<<< HEAD
     left: -20px;
+=======
+    left: -10px;
+  }
+  .etq-2:hover::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 20px;
+    background: var(--bg-grad-1);
+    position: absolute;
+    left: 350px;
+
+  }
+  .etq-3:hover::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 20px;
+    background: var(--bg-grad-1);
+    position: absolute;
+    left: -10px;
+
+  }
+  .etq-4:hover::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 20px;
+    background: var(--bg-grad-1);
+    position: absolute;
+    left: 350px;
+
+>>>>>>> a28cf8f999ec4a438397a9a1ae96ae7ac546bc36
   }
 }
 
 .faculdade-instituicao {
   font-size: 1.125rem;
-  color: #a3a3a3;
+  color: var(--text-8);
 }
 
 @media (max-width: 800px) {
@@ -92,7 +140,7 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: #ffffff;
+    color: var(--text-4);
   }
   .formacao-texto {
     font-size: 1.25rem;
