@@ -69,7 +69,6 @@
   left: -24px;
 }
 
-
 .faculdade-tipo::before {
   content: "";
   display: block;
@@ -78,9 +77,8 @@
   background: var(--bg-grad-1);
   position: absolute;
   left: -24px;
- 
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .etq-1:hover::before {
     content: "";
     width: 25px;
@@ -89,7 +87,6 @@
     position: absolute;
     left: -23px;
   }
-  
 }
 
 .faculdade-instituicao {
@@ -131,5 +128,16 @@
   margin-bottom: 20px;
   font-size: 1.125rem;
   position: relative;
-  transition: ease-in-out 0.5s;
+  animation: show 1s forwards;
+  transition: ease-in-out 0.3s;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-20px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
