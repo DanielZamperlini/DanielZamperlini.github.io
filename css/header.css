@@ -18,7 +18,7 @@
 .link {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 600;
-  color: var(--text-1);
+  color: var(--text-10);
 }
 .header:not(:first-child) {
   margin-left: 30px;

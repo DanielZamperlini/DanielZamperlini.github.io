@@ -13,7 +13,7 @@
 }
 
 .formacao .subtitulo {
-  color: var(--text-9);
+  color: var(--text-10);
   max-width: 4ch;
 }
 
@@ -109,7 +109,7 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: var(--text-4);
+    color: var(--text-10);
   }
   .formacao-texto {
     font-size: 1.25rem;

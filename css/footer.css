@@ -150,12 +150,17 @@
     font-size: 1rem;
   }
   .footer-texto {
-    font-size: 1rem;
-    line-height: 1.1;
+    font-size: 2rem;
+    line-height: 1;
   }
   .footer-container {
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 40px;
+    gap: 40px;
+  }
+  .footer-contato {
+    margin-top: 40px;
+    gap: 40px;
   }
 }
