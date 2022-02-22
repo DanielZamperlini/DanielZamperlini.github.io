@@ -17,10 +17,12 @@
   font-size: 2rem;
   line-height: 1.33;
   color: var(--text-6);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  max-width: 20CH;
 }
 
 .footer-contato {
-  font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.2;
   color: var(--text-4);
@@ -29,6 +31,10 @@
   display: grid;
   gap: 64px;
   position: relative;
+}
+.footer-contato h3,a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
 }
 .footer-contato li a {
   color: var(--text-4);
@@ -61,6 +67,8 @@
   grid-column: 1/-1;
   font-size: 1.125rem;
   color: var(--text-7);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
 }
 
 .email h3::before {
@@ -75,7 +83,7 @@
 .email h3::before {
   background: url("/icons/icons8-email-aberto-64.png");
 }
-.gitHub h3::before {
+.gitHub a::before {
   display: block;
   content: "";
   max-width: 100%;
@@ -85,10 +93,10 @@
   left: -75px;
   top: 275px;
 }
-.gitHub h3::before {
+.gitHub a::before {
   background: url("/icons/icons8-github64.svg");
 }
-.discord h3::before {
+.discord a::before {
   display: block;
   content: "";
   max-width: 100%;
@@ -98,7 +106,7 @@
   left: -75px;
   top: 375px;
 }
-.discord h3::before {
+.discord a::before {
   background: url("/icons/icons8-logo-discord64.svg");
 }
 @media (max-width: 1000px) {
@@ -125,11 +133,11 @@
     position: initial;
     margin-bottom: 10px;
   }
-  .gitHub h3::before {
+  .gitHub a::before {
     position: initial;
     margin-bottom: 10px;
   }
-  .discord h3::before {
+  .discord a::before {
     position: initial;
     margin-bottom: 10px;
   }

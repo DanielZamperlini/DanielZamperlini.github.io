@@ -23,6 +23,8 @@
   max-width: 40ch;
   margin-bottom: 60px;
   color: var(--text-8);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
 }
 
 .formacao-texto strong {
