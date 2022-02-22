@@ -135,7 +135,7 @@
     margin-top: 40px;
   }
   .text-1 {
-    font-size: 2rem;
+    font-size: 2.6rem;
   }
   .perfil {
     gap: 2rem;
@@ -156,7 +156,7 @@
     display: block;
   }
   .text-1 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
   .text-2 {
     font-size: 0.6rem;
@@ -166,5 +166,15 @@
     justify-self: center;
     align-self: center;
     gap: 0.1rem;
+  }
+}
+@media (max-width: 370px) {
+  .text-1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 340px) {
+  .text-1 {
+    font-size: 1.5rem;
   }
 }

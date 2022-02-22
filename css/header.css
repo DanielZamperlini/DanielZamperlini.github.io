@@ -145,3 +145,8 @@
     margin-right: -5px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .logo img {
+    min-width: 200px;
+  }
+}
