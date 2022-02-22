@@ -11,7 +11,6 @@
   margin: 0 auto;
   justify-items: flex-start;
   align-items: center;
-
 }
 
 .footer-texto {
@@ -22,12 +21,13 @@
 
 .footer-contato {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   color: var(--text-4);
+  margin-top: 64px;
   margin-bottom: 32px;
   display: grid;
-  gap: 20px;
+  gap: 64px;
   position: relative;
 }
 .footer-contato li a {
@@ -36,14 +36,14 @@
 .linkedin a::before {
   display: block;
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 64px;
+  height: 64px;
   position: absolute;
-  left: -50px;
-  top: 134px;
+  left: -75px;
+  top: 175px;
 }
-.linkedin  a::before {
-  background: url("/icons/linkedin-g.svg");
+.linkedin a::before {
+  background: url("/icons/icons8-linkedin.svg");
 }
 .phone h3::before {
   display: block;
@@ -51,10 +51,10 @@
   width: 60px;
   height: 60px;
   position: absolute;
-  left: -70px;
-  top: 58px;
+  left: -75px;
+  top: 85px;
 }
-.phone  h3::before {
+.phone h3::before {
   background: url("/icons/icons8-whatsapp.svg");
 }
 .footer-copy {
@@ -66,14 +66,40 @@
 .email h3::before {
   display: block;
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 64px;
+  height: 64px;
   position: absolute;
-  left: -50px;
-  top: 8px;
+  left: -75px;
+  top: -15px;
 }
-.email  h3::before {
-  background: url("/icons/contato-g.svg");
+.email h3::before {
+  background: url("/icons/icons8-email-aberto-64.png");
+}
+.gitHub h3::before {
+  display: block;
+  content: "";
+  max-width: 100%;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: -75px;
+  top: 275px;
+}
+.gitHub h3::before {
+  background: url("/icons/icons8-github64.svg");
+}
+.discord h3::before {
+  display: block;
+  content: "";
+  max-width: 100%;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: -75px;
+  top: 375px;
+}
+.discord h3::before {
+  background: url("/icons/icons8-logo-discord64.svg");
 }
 @media (max-width: 1000px) {
   .footer-container {
@@ -81,7 +107,6 @@
     grid-template-columns: 1fr;
     margin-left: 120px;
   }
-  
 }
 
 @media (max-width: 800px) {
@@ -97,6 +122,14 @@
     margin-bottom: 10px;
   }
   .linkedin a::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .gitHub h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .discord h3::before {
     position: initial;
     margin-bottom: 10px;
   }

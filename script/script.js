@@ -111,11 +111,18 @@ function cursosCompletos() {
   });
 }
 cursosCompletos();
+function removeStilo() {
+  const remover = document.querySelectorAll('.jsremove')
+  remover.forEach((item) => {
+    item.classList.remove('jsremove')
+  });
+}
+removeStilo();
 
 function initAnimacaoScroll() {
   const sections = document.querySelectorAll(".js-scroll");
   if (sections.length) {
-    const windowMetade = window.innerHeight * 0.6;
+    const windowMetade = window.innerHeight * 0.7;
 
     function animaScroll() {
       sections.forEach((section) => {
