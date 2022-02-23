@@ -95,6 +95,15 @@
     left: -23px;
   }
 }
+.info {
+  color: var(--text-11);
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.faculdade-tipo{
+  display: flex;
+  justify-content: space-between;
+}
 
 .faculdade-instituicao {
   font-size: 1.125rem;
@@ -159,3 +168,4 @@
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
