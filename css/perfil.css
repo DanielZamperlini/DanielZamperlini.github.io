@@ -178,3 +178,11 @@
     font-size: 1.5rem;
   }
 }
+.img-not {
+  animation: fly-not 1.5s linear infinite alternate-reverse;
+}
+@keyframes fly-not {
+  to {
+    transform: translatex(30px);
+  }
+}
