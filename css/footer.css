@@ -117,32 +117,16 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 670px) {
   .footer-contato li {
     font-size: 1.5rem;
   }
-  .email h3::before {
-    position: initial;
-    margin-bottom: 10px;
-  }
-  .phone h3::before {
-    position: initial;
-    margin-bottom: 10px;
-  }
-  .linkedin a::before {
-    position: initial;
-    margin-bottom: 10px;
-  }
-  .gitHub a::before {
-    position: initial;
-    margin-bottom: 10px;
-  }
-  .discord a::before {
-    position: initial;
-    margin-bottom: 10px;
+  .footer-contato {
+    margin-top: 40px;
+    margin-left: 60px;
   }
   .footer-container {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 }
 @media (max-width: 550px) {
@@ -156,12 +140,21 @@
   .footer-container {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 10px;
-    gap: 40px;
   }
-  .footer-contato {
-    margin-top: 40px;
-    gap: 40px;
+  .email h3::before {
+    margin-top: -10px; 
+  }
+  .phone h3::before {
+    margin-top: -15px;
+  }
+  .linkedin a::before {
+    margin-top: -20px;
+  }
+  .gitHub a::before {
+    margin-top: -35px;
+  }
+  .discord a::before {
+    margin-top: -50px;
   }
 }
 @media (max-width: 400px) {
@@ -171,5 +164,49 @@
   .footer-texto {
     font-size: 1.5rem;
     line-height: 1;
+  }
+  .email h3::before {
+    margin-top: -10px; 
+  }
+  .phone h3::before {
+    margin-top: -25px;
+  }
+  .linkedin a::before {
+    margin-top: -35px;
+  }
+  .gitHub a::before {
+    margin-top: -50px;
+  }
+  .discord a::before {
+    margin-top: -65px;
+  }
+  .footer-container {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 400px) {
+  .footer-contato li {
+    font-size: 0.5rem;
+    margin-top: -50px;
+  }
+  .footer-texto {
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-top: -50px;
+  }
+  .email h3::before {
+    margin-top: -70px; 
+  }
+  .phone h3::before {
+    margin-top: -100px;
+  }
+  .linkedin a::before {
+    margin-top: -125px;
+  }
+  .gitHub a::before {
+    margin-top: -160px;
+  }
+  .discord a::before {
+    margin-top: -195px;
   }
 }
