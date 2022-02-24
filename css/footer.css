@@ -121,6 +121,29 @@
   .footer-contato li {
     font-size: 1.5rem;
   }
+  .email h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .phone h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .linkedin a::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .gitHub a::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .discord a::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .footer-container {
+    margin-left: 10px;
+  }
 }
 @media (max-width: 550px) {
   .footer-contato li {
@@ -143,7 +166,7 @@
 }
 @media (max-width: 400px) {
   .footer-contato li {
-    font-size: 0.725rem;
+    font-size: 0.825rem;
   }
   .footer-texto {
     font-size: 1.5rem;
