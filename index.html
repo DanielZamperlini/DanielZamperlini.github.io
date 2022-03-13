@@ -29,6 +29,7 @@
   </head>
 
   <body>
+  <div class="div-container">
     <header class="header">
       <a class="logo" href="/index.html"
         ><img src="/logo/logoCODE.svg" alt="logo"
@@ -46,7 +47,7 @@
           <li class="item form">
             <a href="#formacao" class="link">Formação</a>
           </li>
-          <li class="item ctt"><a href="#contato" class="link">Contato</a></li>
+          <li class="item ctt" data-modal="abrir"><a href="" class="link">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -260,6 +261,35 @@
         <p class="footer-copy">DanielZamperlini. alguns direitos reservados.</p>
       </div>
     </footer>
+  </div>
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar">X</button>
+        <form action="">
+          <ul class="modal-contato">
+            <li>
+              <a href="#contato"><img src="/icons/icons8-email-aberto-64.png" alt=""></a>
+            </li>
+            <li>
+              <a href="tel:+5591982066009"><img src="/icons/icons8-whatsapp.svg" alt=""></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/danielzamperlini/"><img src="/icons/icons8-linkedin.svg" alt=""></a
+              >
+            </li>
+            <li>           
+                <a href="https://github.com/DanielZamperlini/"
+                  ><img src="/icons/icons8-github64.svg" alt=""></a
+                >
+            </li>
+            <li>
+                <a href="https://discord.gg/XnJ9V6ev/"
+                  ><img src="/icons/icons8-logo-discord64.svg" alt=""></a
+                >
+            </li>
+          </ul>
+        </form>
+      </div>
     <script type="module" src="/script/script.js"></script>
   </body>
 </html>
