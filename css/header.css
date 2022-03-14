@@ -164,8 +164,10 @@
   .menu::after {
     content: url(../logo/logoCODEfff.svg);
     position: absolute;
-    top: 30px;
-    left: 190px;
+    width: auto;
+    height: auto;
+    top: 5%;
+    left: 5%;
   }
   .exp a::before, .form a::before, .ctt a::before  {
     content: '< ';
