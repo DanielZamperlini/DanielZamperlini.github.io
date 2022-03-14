@@ -25,30 +25,68 @@
 }
 .exp {
   list-style: url(/icons/experiencia-menu.svg);
+  position: relative;
 }
 .form {
   list-style: url(/icons/formação-menu.svg);
+  position: relative;
 }
 .ctt {
   list-style: url(/icons/contato-menu.svg);
+  position: relative;
 }
 
-.exp:hover {
-  border-bottom: 3px solid var(--border-1);
-  border-radius: 3px;
-  transition: 0.1s;
+.exp:hover::before {
+  content: "";
+  width: 157px;
+  height: 4px;
+  border-radius: 0 0 10px 10px;
+  background: var(--bg-grad-1);
+  position: absolute;
+  top: 27px;
+  left: -20px;
+  transition: 0.6s;
+  animation: animate-menus 0.8s ease-in-out;
 }
 
-.form:hover {
-  border-bottom: 3px solid var(--border-1);
-  border-radius: 3px;
-  transition: 0.1s;
+.form:hover::before {
+  content: "";
+  width: 120px;
+  height: 4px;
+  border-radius: 0 0 10px 10px;
+  background: var(--bg-grad-1);
+  position: absolute;
+  top: 27px;
+  left: -20px;
+  transition: 0.6s; 
+  animation: animate-menus 0.8s ease-in-out;
 }
 
-.ctt:hover {
-  border-bottom: 3px solid var(--border-1);
-  border-radius: 3px;
-  transition: 0.1s;
+.ctt:hover::before {
+  content: "";
+  width: 107px;
+  height: 4px;
+  border-radius: 0 0 10px 10px;
+  background: var(--bg-grad-1);
+  position: absolute;
+  top: 27px;
+  left: -20px;
+  transition: 0.6s;
+  animation: animate-menus 0.8s ease-in-out;
+}
+@keyframes animate-menus {
+  0% {
+    transform: translatey(-50px);
+    opacity: 0;
+  }
+  50% {
+    transform: translatey(10px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translatey(0);
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -80,7 +118,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 70%;
+    width: 100%;
     background-color: var(--bg-5);
     flex-direction: column;
     justify-content: center;
@@ -109,11 +147,13 @@
   .exp a,
   .form a,
   .ctt a {
+
     font-family: "IBM Plex Mono", monospace;
     font-weight: 600;
     color: var(--text-4);
     font-size: 1.3rem;
   }
+
   @keyframes animate-link {
     0% {
       transform: translateX(-100px);
