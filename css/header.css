@@ -143,16 +143,47 @@
   .navbar__toggle {
     margin-top: 45px;
   }
+  .exp:hover::before {
+    width: 210px;
+    top: 40px;
+  }
+  
+  .form:hover::before {
+    width: 160px;
+    top: 40px;
+  }
+  
+  .ctt:hover::before {
+    width: 140px;
+    top: 40px;
+  }
+  .exp::before, .form::before, .ctt::before  {
+    content: '< ';
+    font-size: 2rem;
+    color: #ba66fa;
+  }
+  .exp::after, .form::after, .ctt::after  {
+    content: ' >';
+    font-size: 2rem;
+    color: #ba66fa;
+  }
 
   .exp a,
   .form a,
   .ctt a {
-
+    text-transform: uppercase;
+    padding: 20px 2px;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 600;
     color: var(--text-4);
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
+  .exp,
+  .form,
+  .ctt {
+     list-style: none;
+  }
+
 
   @keyframes animate-link {
     0% {
