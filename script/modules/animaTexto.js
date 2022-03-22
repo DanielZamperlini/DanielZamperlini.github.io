@@ -22,7 +22,7 @@ new TypeIt("#hero", {
   .move(null, { to: "END" })
   .type('<span class="place">desig</span>', { delay: 400 })
   .delete(".place", { delay: 800, instant: true })
-  .type('<em><strong class="font-semibold">Designer.</strong></em>', {
+  .type('<em><strong class="font-semibold">Designer. </strong></em>', {
     speed: 100,
   })
   .go();
