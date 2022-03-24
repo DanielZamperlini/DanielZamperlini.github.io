@@ -1,5 +1,6 @@
 .logo img {
-  max-width: 70%;
+  max-width: 80%;
+  margin-top: 20px;
 }
 
 .header {
@@ -17,9 +18,11 @@
   position: relative;
 }
 .link {
+  text-transform: uppercase;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 600;
   color: var(--text-10);
+  text-shadow: 0 2px 3px #b2b2b2;
 }
 .header:not(:first-child) {
   margin-left: 30px;
