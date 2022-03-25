@@ -128,12 +128,9 @@
   object-fit: cover;
 }
 @media (max-width: 500px) {
-  .logo img {
-    max-width: 70%;
-    display: block;
-  }
+ 
   .navbar__toggle {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .text-1 {
     font-size: 2.6rem;
