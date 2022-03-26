@@ -64,7 +64,7 @@
     gap: 40px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   .img-not {
     display: none;
   }
