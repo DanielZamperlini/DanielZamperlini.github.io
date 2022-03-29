@@ -70,9 +70,41 @@
     font-size: 1.2rem;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 760px) {
+  .form-Cliente {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-Cliente textarea {
+    max-width: 320px;
+    min-width: 320px;
+    font-size: 1rem;
+  }
+  .form-Cliente input {
+    max-width: 320px;
+    min-width: 320px;
+    font-size: 1rem;
+  }
+  .email-input {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .footer-texto {
+    max-width: 20ch;
+  }
   .obrigado {
     margin-top: 20px !important;
     margin-bottom: 20px;
+  }
+  .form-Cliente textarea {
+    max-width: 250px;
+    min-width: 250px;
+    font-size: 0.8rem;
+  }
+  .form-Cliente input {
+    max-width: 250px;
+    min-width: 250px;
+    font-size: 0.8rem;
   }
 }
