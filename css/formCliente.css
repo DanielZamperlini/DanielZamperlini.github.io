@@ -108,3 +108,6 @@
     font-size: 0.8rem;
   }
 }
+.bg-pc {
+  background: var(--bg-grad-3);
+}
