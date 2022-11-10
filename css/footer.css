@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
-  padding: 120px 20px 60px 20px;
+  padding: 60px 20px 0px 20px;
   margin: 0 auto;
   justify-items: flex-start;
   align-items: center;
@@ -17,9 +17,9 @@
   font-size: 1.2rem;
   line-height: 1.33;
   color: var(--text-6);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
-  max-width: 50CH;
+  max-width: 50ch;
 }
 
 .footer-contato {
@@ -32,8 +32,9 @@
   gap: 64px;
   position: relative;
 }
-.footer-contato h3,a {
-  font-family: 'IBM Plex Mono', monospace;
+.footer-contato h3,
+a {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 600;
 }
 .footer-contato li a {
@@ -67,7 +68,7 @@
   grid-column: 1/-1;
   font-size: 1.125rem;
   color: var(--text-7);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
 }
 
@@ -120,7 +121,7 @@
   .footer-container {
     display: grid;
     grid-template-columns: 1fr;
-   justify-items: center;
+    justify-items: center;
   }
 }
 
@@ -137,7 +138,7 @@
     grid-template-columns: 1fr;
   }
   .email h3::before {
-    margin-top: -10px; 
+    margin-top: -10px;
   }
   .phone h3::before {
     margin-top: -15px;
@@ -151,6 +152,9 @@
   .discord a::before {
     margin-top: -50px;
   }
+  .footer-copy {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 550px) {
   .footer-contato li {
@@ -161,7 +165,7 @@
     line-height: 1;
   }
   .email h3::before {
-    margin-top: -10px; 
+    margin-top: -10px;
   }
   .phone h3::before {
     margin-top: -25px;
@@ -190,7 +194,7 @@
     margin-top: -50px;
   }
   .email h3::before {
-    margin-top: -70px; 
+    margin-top: -70px;
   }
   .phone h3::before {
     margin-top: -100px;
@@ -203,6 +207,10 @@
   }
   .discord a::before {
     margin-top: -195px;
+  }
+
+  .footer-copy {
+    font-size: 0.6rem;
   }
 }
 
