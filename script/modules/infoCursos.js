@@ -110,4 +110,38 @@ export default function cursosCompletos() {
       });
     });
   });
+  cursosFeitos.forEach((items) => {
+    const gradeCursos = document.querySelector(".etq7");
+    gradeCursos.addEventListener("mouseover", function () {
+      const items = document.querySelectorAll(".etq7 h3");
+      items.forEach((item) => {
+        item.classList.remove("item-cursos");
+        item.classList.add("item-cursosx");
+      });
+    });
+    gradeCursos.addEventListener("mouseout", function () {
+      const cursosFeitos = document.querySelectorAll(".etq7 h3");
+      cursosFeitos.forEach((item) => {
+        item.classList.add("item-cursos");
+        item.classList.remove("item-cursosx");
+      });
+    });
+  });
+  cursosFeitos.forEach((items) => {
+    const gradeCursos = document.querySelector(".etq8");
+    gradeCursos.addEventListener("mouseover", function () {
+      const items = document.querySelectorAll(".etq8 h3");
+      items.forEach((item) => {
+        item.classList.remove("item-cursos");
+        item.classList.add("item-cursosx");
+      });
+    });
+    gradeCursos.addEventListener("mouseout", function () {
+      const cursosFeitos = document.querySelectorAll(".etq8 h3");
+      cursosFeitos.forEach((item) => {
+        item.classList.add("item-cursos");
+        item.classList.remove("item-cursosx");
+      });
+    });
+  });
 }
