@@ -138,7 +138,7 @@
   display: flex;
   justify-content: space-between;
 }
-.js .item-cursosx {
+.js .item-cursosx h3 {
   flex: 1;
   line-height: 1.4;
   margin-bottom: 20px;
