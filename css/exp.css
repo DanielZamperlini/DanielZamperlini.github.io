@@ -7,9 +7,21 @@
   margin: 0 auto;
 }
 .experiencia .subtitulo {
-  color: var(--text-0);
   max-width: 3ch;
+  background: linear-gradient(
+    to right, #1B1364, #4219FE80 35%, #FE00FE);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradiente 3s linear infinite;
 }
+
+@keyframes gradiente {
+  0% {background-position: 0% 75%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 70%;}
+}
+
 .experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;

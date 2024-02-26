@@ -12,9 +12,21 @@
   margin: 0 auto;
 }
 
-.formacao .subtitulo {
+.formacao .subtitulo, .formacao1 .subtitulo {
   color: var(--text-10);
-  max-width: 4ch;
+    max-width: 4ch; 
+    background: linear-gradient(
+    to right, #1B1364, #4219FE80 35%, #FE00FE);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradiente 3s linear infinite;
+}
+
+@keyframes gradiente {
+  0% {background-position: 0% 75%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 70%;}
 }
 
 .formacao-texto {
