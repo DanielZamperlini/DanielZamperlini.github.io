@@ -18,7 +18,7 @@
     background: linear-gradient(
     to right, #1B1364, #4219FE80 35%, #FE00FE);
     background-size: 200% auto;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradiente 3s linear infinite;
 }

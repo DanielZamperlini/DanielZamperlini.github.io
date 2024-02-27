@@ -11,7 +11,7 @@
   background: linear-gradient(
     to right, #1B1364, #4219FE80 35%, #FE00FE);
     background-size: 200% auto;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradiente 3s linear infinite;
 }
@@ -150,6 +150,9 @@
   .empresa-texto {
     max-width: 32ch;
   }
+  #projeto {
+    max-width: 10ch;
+  }
 }
 
 @media (max-width: 400px) {
@@ -164,4 +167,7 @@
 .link-site {
  color: var(--text-4); 
  text-decoration: none;
+}
+#projeto {
+  max-width: 4ch;
 }
