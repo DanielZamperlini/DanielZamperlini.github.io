@@ -37,6 +37,7 @@
   margin-bottom: 15px;
   font-weight: 900;
   font-size: 16px;
+  
 }
 
 .card__descr {
@@ -85,4 +86,6 @@
   display: flex ;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
+  padding-top: 15px;
 }

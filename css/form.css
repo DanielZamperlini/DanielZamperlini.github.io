@@ -88,14 +88,15 @@
   left: -24px;
 }
 
-.faculdade-tipo::before {
+.card::before {
   content: "";
   display: block;
-  width: 4px;
+  width: 6px;
   height: 20px;
   background: var(--bg-grad-1);
   position: absolute;
-  left: -24px;
+  top: 30px;
+  left: -6px;
 }
 @media (min-width: 800px) {
   .etq-1:hover::before {
@@ -139,6 +140,9 @@
 @media (max-width: 500px) {
   .faculdade-lista {
     grid-template-columns: 1fr;
+  }
+  #projeto {
+    font-size: 1.25rem !important;
   }
 }
 
