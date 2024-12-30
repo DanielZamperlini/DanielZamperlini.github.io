@@ -180,14 +180,20 @@ function createCard(card) {
   `;
 }
 
-const isMainPage = window.location.pathname == '/index.html'; // Verifica se está na página principal
+// Verifica se está na página principal (compatível com GitHub Pages)
+const isMainPage =
+  window.location.pathname === '/' ||
+  window.location.pathname.endsWith('/index.html');
 
 const container = document.querySelector('.cards-container');
 
 // Se for a página principal, mostra apenas os 4 primeiros
 const cardsToDisplay = isMainPage ? cardsData.slice(0, 4) : cardsData;
 
+let cardsHTML = '';
 cardsToDisplay.forEach((card) => {
   const cardHTML = createCard(card);
-  container.innerHTML += cardHTML;
+  cardsHTML += cardHTML;
 });
+
+container.innerHTML = cardsHTML;
