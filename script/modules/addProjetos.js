@@ -180,7 +180,7 @@ function createCard(card) {
   `;
 }
 
-const isMainPage = window.location.pathname === '/index.html'; // Verifica se está na página principal
+const isMainPage = window.location.pathname == '/index.html'; // Verifica se está na página principal
 
 const container = document.querySelector('.cards-container');
 
