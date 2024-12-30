@@ -17,7 +17,7 @@
   font-size: 1.2rem;
   line-height: 1.33;
   color: var(--text-6);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   max-width: 50ch;
 }
@@ -34,7 +34,7 @@
 }
 .footer-contato h3,
 a {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 600;
 }
 .footer-contato li a {
@@ -42,7 +42,7 @@ a {
 }
 .linkedin a::before {
   display: block;
-  content: "";
+  content: '';
   width: 64px;
   height: 64px;
   position: absolute;
@@ -50,11 +50,11 @@ a {
   top: 175px;
 }
 .linkedin a::before {
-  background: url("/icons/icons8-linkedin.svg");
+  background: url('/icons/icons8-linkedin.svg');
 }
 .phone h3::before {
   display: block;
-  content: "";
+  content: '';
   width: 60px;
   height: 60px;
   position: absolute;
@@ -62,19 +62,19 @@ a {
   top: 85px;
 }
 .phone h3::before {
-  background: url("/icons/icons8-whatsapp.svg");
+  background: url('/icons/icons8-whatsapp.svg');
 }
 .footer-copy {
   grid-column: 1/-1;
   font-size: 1.125rem;
   color: var(--text-7);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
 }
 
 .email h3::before {
   display: block;
-  content: "";
+  content: '';
   width: 64px;
   height: 64px;
   position: absolute;
@@ -82,11 +82,11 @@ a {
   top: -15px;
 }
 .email h3::before {
-  background: url("/icons/icons8-email-aberto-64.png");
+  background: url('/icons/icons8-email-aberto-64.png');
 }
 .gitHub a::before {
   display: block;
-  content: "";
+  content: '';
   max-width: 100%;
   width: 64px;
   height: 64px;
@@ -95,11 +95,11 @@ a {
   top: 275px;
 }
 .gitHub a::before {
-  background: url("/icons/icons8-github64.svg");
+  background: url('/icons/icons8-github64.svg');
 }
 .discord a::before {
   display: block;
-  content: "";
+  content: '';
   max-width: 100%;
   width: 64px;
   height: 64px;
@@ -108,7 +108,7 @@ a {
   top: 375px;
 }
 .discord a::before {
-  background: url("/icons/icons8-logo-discord64.svg");
+  background: url('/icons/icons8-logo-discord64.svg');
 }
 @media (max-width: 1000px) {
   .footer-container {
@@ -218,8 +218,7 @@ a {
   margin-left: 0px;
 }
 .footer .subtitulo {
-  background: linear-gradient(
-  to right, #1B1364, #4219FE80 35%, #FE00FE);
+  background: linear-gradient(to right, #1b1364, #4219fe80 35%, #fe00fe);
   background-size: 200% auto;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -227,7 +226,13 @@ a {
 }
 
 @keyframes gradiente {
-0% {background-position: 0% 75%;}
-50% {background-position: 100% 50%;}
-100% {background-position: 0% 70%;}
+  0% {
+    background-position: 0% 75%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 70%;
+  }
 }
