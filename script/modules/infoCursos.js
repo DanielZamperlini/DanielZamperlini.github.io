@@ -5,8 +5,8 @@ export default function cursosCompletos() {
   });
   const facul = document.querySelectorAll('.faculdade');
   facul.forEach((item) => {
-    item.addEventListener("click", function () {
-      this.classList.toggle("item-cursosx");
+    item.addEventListener('click', function () {
+      this.classList.toggle('item-cursosx');
     });
   });
-};
+}
