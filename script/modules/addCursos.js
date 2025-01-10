@@ -1,5 +1,14 @@
 const updatedCoursesData = [
   {
+    platform: 'escola do trabalhador 4.0',
+    year: '2025',
+    courses: [
+      { title: 'Inteligência Artificial', hours: '30m' },
+      { title: 'IA Generativa', hours: '30m' },
+      { title: 'A evolução das buscas on-line', hours: '30m' },
+    ],
+  },
+  {
     platform: 'Uniasselvi',
     year: '2024',
     courses: [{ title: 'Algoritimos e programação', hours: '12h' }],
