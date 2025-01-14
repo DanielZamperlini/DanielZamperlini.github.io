@@ -6,6 +6,9 @@ const updatedCoursesData = [
       { title: 'Inteligência Artificial', hours: '30m' },
       { title: 'IA Generativa', hours: '30m' },
       { title: 'A evolução das buscas on-line', hours: '30m' },
+      { title: 'Como ser mais produtivo usando bing chat', hours: '30m' },
+      { title: 'Ética em IA', hours: '30m' },
+      { title: 'copilot', hours: '30m' },
     ],
   },
   {
