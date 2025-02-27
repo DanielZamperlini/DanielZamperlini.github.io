@@ -215,7 +215,7 @@ a {
 .footer h2 {
   color: var(--text-9);
   padding-top: 80px;
-  margin-left: 0px;
+  margin-left: 20px;
 }
 .footer .subtitulo {
   background: linear-gradient(to right, #1b1364, #4219fe80 35%, #fe00fe);

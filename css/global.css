@@ -14,17 +14,17 @@
   --text-9: #2e2e2e;
   --text-10: #3f3f3f;
   --text-11: #ba66fa;
-  --text-12: #463D52;
+  --text-12: #463d52;
   --bg-1: #f5f5f5;
   --bg-2: #ffffff;
   --bg-3: #000000;
   --bg-4: #303030;
   --bg-5: #050107ee;
   --border-1: #800add;
-  --border-2: #463D52;
+  --border-2: #463d52;
   --bg-grad-1: linear-gradient(#800add, #cc6df8);
   --bg-grad-2: linear-gradient(#cc6df8, #800add);
-  --bg-grad-3: linear-gradient(90deg,#041842e8, #800add);
+  --bg-grad-3: linear-gradient(90deg, #041842e8, #800add);
 }
 
 *,
@@ -35,10 +35,10 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "fira", Arial, sans-serif;
-  max-width: 1600px;
+  font-family: 'fira', Arial, sans-serif;
+  max-width: 1980px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 h1,
 h2,
@@ -55,7 +55,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
-  display: block; 
+  display: block;
 }
 
 li a {
@@ -74,4 +74,3 @@ li a {
     max-width: initial !important;
   }
 }
-

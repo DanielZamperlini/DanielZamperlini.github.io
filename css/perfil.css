@@ -1,6 +1,5 @@
 .perfil {
-  
-  max-width: 1400px;
+  max-width: 1980px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 80px 40px;
@@ -20,14 +19,17 @@
   position: absolute;
   display: block;
   top: 80px;
-  left: 660px;
+  left: 1100px;
 }
-@media (min-width: 1600px) {
+body {
+  max-width: 1980px;
+}
+@media (max-width: 1800px) {
   body {
     max-width: 1800px;
   }
   .perfil {
-    max-width: 1600px;
+    max-width: 1700px;
     gap: 80px;
   }
   .img-not {
@@ -36,9 +38,6 @@
   }
 }
 @media (max-width: 1550px) {
-  body {
-    max-width: 1600px;
-  }
   .perfil {
     max-width: 1400px;
     gap: 70px;
@@ -70,14 +69,14 @@
   }
 }
 .text-1 {
-  font-family:"IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   font-size: 2.5rem;
   line-height: 1.3;
   color: var(--text1);
 }
 .text-2 {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 1.2rem;
   color: var(--text2);
 }
@@ -120,7 +119,6 @@
   object-fit: cover;
 }
 @media (max-width: 500px) {
- 
   .navbar__toggle {
     margin-top: 20px;
   }
