@@ -1,5 +1,21 @@
 const cardsData = [
   {
+    imgSrc: 'imgens/sites/creas.png',
+    title: 'CREAS',
+    description:
+      'App web criado em um projeto de extensão da faculdade onde o objetivo era criar um site para o CREAS, contendo informações e ajuda para a comunidade.',
+    siteLink: 'https://creas.netlify.app/',
+    codeLink: 'https://github.com/DanielZamperlini/creas',
+  },
+  {
+    imgSrc: 'imgens/sites/dashboard.png',
+    title: 'Dashboard',
+    description:
+      'Dashboard criado com intuito de aprender sobre o framework React, typescript e tailwindcss, e inteligencia artificial.',
+    siteLink: 'https://dashboard-skateshop.netlify.app/',
+    codeLink: 'https://github.com/DanielZamperlini/dashboard-skate-shop',
+  },
+  {
     imgSrc: 'imgens/sites/OrdemServico.png',
     title: 'Ordem de Serviço',
     description:
