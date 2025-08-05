@@ -1,5 +1,10 @@
 const updatedCoursesData = [
   {
+    platform: 'Origamid',
+    year: '2025',
+    courses: [{ title: 'Banco de Dados SQLite', hours: '16h' }],
+  },
+  {
     platform: 'escola do trabalhador 4.0',
     year: '2025',
     courses: [
