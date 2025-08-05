@@ -2,7 +2,7 @@
   max-width: 1980px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 80px 40px;
+  padding: 80px 40px 20px 40px;
   margin: 0 auto;
   position: relative;
 }

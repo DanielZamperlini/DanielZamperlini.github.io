@@ -20,7 +20,7 @@
 .link {
   font-size: 1.6rem;
   text-transform: uppercase;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 600;
   color: var(--text-12);
   text-shadow: 0 2px 4px #00000050;
@@ -39,7 +39,9 @@
   position: relative;
 }
 
-.exp a:hover, .form a:hover, .ctt a:hover {
+.exp a:hover,
+.form a:hover,
+.ctt a:hover {
   color: var(--text-11);
   transition: 0.2s;
 }
@@ -146,14 +148,14 @@
   .exp a::before,
   .form a::before,
   .ctt a::before {
-    content: "< ";
+    content: '< ';
     font-size: 2rem;
     color: #ba66fa;
   }
   .exp a::after,
   .form a::after,
   .ctt a::after {
-    content: " >";
+    content: ' >';
     font-size: 2rem;
     color: #ba66fa;
   }
@@ -163,7 +165,7 @@
   .ctt a {
     text-transform: uppercase;
     padding: 20px 2px;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-weight: 600;
     color: var(--text-4);
     font-size: 2rem;
@@ -202,10 +204,9 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  
   .navbar__toggle {
     width: 45px;
-    height: 35px; 
+    height: 35px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -214,13 +215,13 @@
   }
   .navbar__toggle {
     width: 40px;
-    height: 35px; 
+    height: 35px;
     margin-right: -20px;
   }
 }
 
 .mais-info {
-  margin: -50px auto 100px auto;
+  margin: 30px auto 60px auto;
   max-width: 100px;
   display: none;
   animation: fly 1.5s linear infinite alternate-reverse;
