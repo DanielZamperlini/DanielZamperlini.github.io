@@ -3,7 +3,7 @@ const cardsData = [
     imgSrc: 'imgens/sites/creas.png',
     title: 'CREAS',
     description:
-      'App web criado em um projeto de extensão da faculdade onde o objetivo era criar um site para o CREAS, contendo informações e ajuda para a comunidade.',
+      'projeto de extensão da faculdade, site elaborado para uma instituição social que ajuda a comunidade.',
     siteLink: 'https://creas.netlify.app/',
     codeLink: 'https://github.com/DanielZamperlini/creas',
   },
