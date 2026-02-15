@@ -1,32 +1,47 @@
 const updatedCoursesData = [
   {
-    platform: 'Origamid',
-    year: '2025',
-    courses: [{ title: 'Banco de Dados SQLite', hours: '16h' }],
-  },
-  {
-    platform: 'escola do trabalhador 4.0',
+    platform: 'Alura, Origamid , FAT, Uniasselvi, escola do trabalhador 4.0',
     year: '2025',
     courses: [
-      { title: 'Inteligência Artificial', hours: '30m' },
-      { title: 'IA Generativa', hours: '30m' },
-      { title: 'A evolução das buscas on-line', hours: '30m' },
-      { title: 'Como ser mais produtivo usando bing chat', hours: '30m' },
-      { title: 'Ética em IA', hours: '30m' },
-      { title: 'copilot', hours: '30m' },
+      { title: 'IMERSÃO DADOS COM PYTHON (Alura)', hours: '4h' },
+      { title: 'Banco de Dados SQLite (Origamid)', hours: '16h' },
+      { title: 'APLICAÇÃO DE BANCO DE DADOS ONLINE (FAT)', hours: '120h' },
+      {
+        title:
+          'Desenvolvimento de sites ou aplicativos sobre violência doméstica (Uniasselvi)',
+        hours: '149h',
+      },
+      {
+        title: 'Inteligência Artificial  (escola do trabalhador 4.0)',
+        hours: '30m',
+      },
+      { title: 'IA Generativa (escola do trabalhador 4.0)', hours: '30m' },
+      {
+        title: 'A evolução das buscas on-line (escola do trabalhador 4.0)',
+        hours: '30m',
+      },
+      {
+        title:
+          'Como ser mais produtivo usando bing chat (escola do trabalhador 4.0)',
+        hours: '30m',
+      },
+      { title: 'Ética em IA (escola do trabalhador 4.0)', hours: '30m' },
+      { title: 'copilot (escola do trabalhador 4.0)', hours: '30m' },
     ],
   },
   {
-    platform: 'Uniasselvi',
-    year: '2024',
-    courses: [{ title: 'Algoritimos e programação', hours: '12h' }],
-  },
-  {
-    platform: 'Digital Innovation One',
+    platform: 'Uniasselvi, Digital Innovation One',
     year: '2024',
     courses: [
-      { title: 'Machine Learning para Iniciantes na AWS', hours: '10h' },
-      { title: 'Algoritmos e Aprendizado de Máquina', hours: '1h' },
+      { title: 'Algoritimos e programação (Uniasselvi)', hours: '12h' },
+      {
+        title: 'Machine Learning para Iniciantes na AWS (DIO)',
+        hours: '10h',
+      },
+      {
+        title: 'Algoritmos e Aprendizado de Máquina (DIO)',
+        hours: '1h',
+      },
     ],
   },
   {
@@ -41,28 +56,22 @@ const updatedCoursesData = [
     ],
   },
   {
-    platform: 'Origamid',
+    platform: 'Origamid, Digital Innovation One',
     year: '2022',
     courses: [
-      { title: 'CSS com SASS', hours: '12h' },
-      { title: 'Tipografia Avançada', hours: '24h' },
-      { title: 'Web Design Completo', hours: '44h' },
-      { title: 'JavaScript Completo ES6+', hours: '74h' },
-      { title: 'CSS Avançado - Posicionamento', hours: '18h' },
-      { title: 'React Completo', hours: '36h' },
-      { title: 'UI Design Avançado', hours: '30h' },
-      { title: 'WordPress Como CMS', hours: '18h' },
-    ],
-  },
-  {
-    platform: 'Digital Innovation One',
-    year: '2022',
-    courses: [
-      { title: 'Trabalhando_em_Equipes_Ageis', hours: '3h' },
-      { title: 'Pensamento Computacional', hours: '2h' },
-      { title: 'Lógica de Programação Essencial', hours: '4h' },
-      { title: 'Introdução ao Git e ao GitHub', hours: '5h' },
-      { title: 'Projetos ágeis com SCRUM', hours: '5h' },
+      { title: 'CSS com SASS (Origamid)', hours: '12h' },
+      { title: 'Tipografia Avançada (Origamid)', hours: '24h' },
+      { title: 'Web Design Completo (Origamid)', hours: '44h' },
+      { title: 'JavaScript Completo ES6+ (Origamid)', hours: '74h' },
+      { title: 'CSS Avançado - Posicionamento (Origamid)', hours: '18h' },
+      { title: 'React Completo (Origamid)', hours: '36h' },
+      { title: 'UI Design Avançado (Origamid)', hours: '30h' },
+      { title: 'WordPress Como CMS (Origamid)', hours: '18h' },
+      { title: 'Trabalhando_em_Equipes_Ageis (DIO)', hours: '3h' },
+      { title: 'Pensamento Computacional (DIO)', hours: '2h' },
+      { title: 'Lógica de Programação Essencial (DIO)', hours: '4h' },
+      { title: 'Introdução ao Git e ao GitHub (DIO)', hours: '5h' },
+      { title: 'Projetos ágeis com SCRUM (DIO)', hours: '5h' },
       {
         title: 'Introdução a criação de websites com HTML5 e CSS3',
         hours: '6h',
@@ -70,22 +79,16 @@ const updatedCoursesData = [
     ],
   },
   {
-    platform: 'Origamid',
+    platform: 'Origamid, CursoEmVideo',
     year: '2021',
     courses: [
-      { title: 'UX Design & UI Design', hours: '34h' },
-      { title: 'Front End para iniciantes', hours: '46h' },
-      { title: 'CSS Grid Layout', hours: '10h' },
-      { title: 'CSS Flexbox', hours: '6h' },
-    ],
-  },
-  {
-    platform: 'CursoEmVideo',
-    year: '2021',
-    courses: [
-      { title: 'Algoritimos', hours: '40h' },
-      { title: 'html & CSS', hours: '40h' },
-      { title: 'JavaScript', hours: '40h' },
+      { title: 'UX Design & UI Design (Origamid)', hours: '34h' },
+      { title: 'Front End para iniciantes (Origamid)', hours: '46h' },
+      { title: 'CSS Grid Layout (Origamid)', hours: '10h' },
+      { title: 'CSS Flexbox (CursoEmVideo)', hours: '6h' },
+      { title: 'Algoritimos (CursoEmVideo)', hours: '40h' },
+      { title: 'html & CSS (CursoEmVideo)', hours: '40h' },
+      { title: 'JavaScript (CursoEmVideo)', hours: '40h' },
     ],
   },
   {
